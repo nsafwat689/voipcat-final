@@ -45,7 +45,7 @@ export default function CloudPBXSection() {
   ];
 
   return (
-    <section id="cloud-pbx" className="py-20 md:py-32 bg-secondary relative overflow-hidden">
+    <section id="cloud-pbx" className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* Cyber background elements */}
       <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 -z-10"></div>
       <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px] -z-10"></div>
@@ -71,7 +71,7 @@ export default function CloudPBXSection() {
                 key={index}
                 className={`relative rounded-2xl transition-all duration-500 group ${
                   plan.highlighted
-                    ? 'lg:scale-110 bg-secondary border-2 border-primary shadow-[0_0_30px_rgba(0,163,255,0.2)] z-10'
+                    ? 'lg:scale-110 bg-background border-2 border-primary shadow-[0_0_30px_rgba(0,163,255,0.2)] z-10'
                     : 'bg-card/5 border border-primary/10 hover:border-primary/30 backdrop-blur-sm'
                 }`}
               >
