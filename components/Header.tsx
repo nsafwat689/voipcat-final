@@ -128,7 +128,7 @@ export default function Header() {
                 style={{ fontFamily: 'Orbitron, sans-serif' }}
               >
                 Contact
-              </a>n>
+              </a>
                 <Button className="flex-1 btn-glow uppercase tracking-wider text-xs" style={{ fontFamily: 'Orbitron, sans-serif' }}>
                   Get Started
                 </Button>
