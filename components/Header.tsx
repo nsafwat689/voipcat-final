@@ -68,14 +68,15 @@ export default function Header() {
                 <Sun className="w-5 h-5 text-foreground" />
               )}
             </button>
-            <Button
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/5 uppercase tracking-wider text-xs"
+            <a
+              href="https://wa.me/201557649136?text=Hello%20VoIP%20Cat"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-4 py-2 border border-primary text-primary hover:bg-primary/5 rounded-md uppercase tracking-wider text-xs transition-colors"
               style={{ fontFamily: 'Orbitron, sans-serif' }}
             >
               Contact
-            </Button>
-            <Button className="btn-glow uppercase tracking-wider text-xs" style={{ fontFamily: 'Orbitron, sans-serif' }}>
+            </a><Button className="btn-glow uppercase tracking-wider text-xs" style={{ fontFamily: 'Orbitron, sans-serif' }}>
               Get Started
             </Button>
           </div>
