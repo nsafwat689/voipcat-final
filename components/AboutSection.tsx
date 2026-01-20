@@ -109,7 +109,7 @@ export default function AboutSection() {
             return (
               <div
                 key={index}
-                className="card-elevated p-8 space-y-6 group hover:bg-primary/5 transition-all duration-500" dark:hover:bg-slate-900
+                className="card-elevated p-8 space-y-6 group hover:bg-primary/5 transition-all duration-500 dark:hover:bg-slate-900"
               >
                 <div className="w-14 h-14 bg-primary/10 dark:bg-slate-900 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500 border border-primary/20">
                   <Icon className="w-7 h-7 text-primary" />
