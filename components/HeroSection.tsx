@@ -8,8 +8,7 @@ import { ArrowRight, Phone, Zap } from 'lucide-react';
  */
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-secondary py-16 md:py-28">
-      {/* Cyber background elements */}
+      <section className="relative overflow-hidden bg-secondary dark:bg-black py-16 md:py-28">      {/* Cyber background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-accent/10 rounded-full blur-[100px] -z-10" />
       
