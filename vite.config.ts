@@ -156,7 +156,7 @@ export default defineConfig({
   plugins,
   resolve: {
     alias: {
-      // "@": path.resolve(import.meta.dirname, "src"),      "@shared": path.resolve(import.meta.dirname, "shared"),
+      "@": path.resolve(import.meta.dirname),
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
